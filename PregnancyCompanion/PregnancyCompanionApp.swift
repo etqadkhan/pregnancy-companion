@@ -12,7 +12,8 @@ struct PregnancyCompanionApp: App {
             FoodEntry.self,
             DoctorVisit.self,
             MoodEntry.self,
-            WeightEntry.self
+            WeightEntry.self,
+            FeelingsEntry.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 

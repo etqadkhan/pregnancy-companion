@@ -32,6 +32,8 @@
 		023 /* WeightEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123 /* WeightEntry.swift */; };
 		024 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124 /* SoundManager.swift */; };
 		025 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125 /* ProfileView.swift */; };
+		026 /* FeelingsEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126 /* FeelingsEntry.swift */; };
+		027 /* FeelingsJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127 /* FeelingsJournalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,8 @@
 		123 /* WeightEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightEntry.swift; sourceTree = "<group>"; };
 		124 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		125 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		126 /* FeelingsEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingsEntry.swift; sourceTree = "<group>"; };
+		127 /* FeelingsJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingsJournalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 				107 /* DoctorVisit.swift */,
 				108 /* MoodEntry.swift */,
 				123 /* WeightEntry.swift */,
+				126 /* FeelingsEntry.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 				313 /* Baby */,
 				314 /* Mood */,
 				315 /* Profile */,
+				316 /* Feelings */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -226,6 +232,14 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		316 /* Feelings */ = {
+			isa = PBXGroup;
+			children = (
+				127 /* FeelingsJournalView.swift */,
+			);
+			path = Feelings;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -319,6 +333,8 @@
 				023 /* WeightEntry.swift in Sources */,
 				024 /* SoundManager.swift in Sources */,
 				025 /* ProfileView.swift in Sources */,
+				026 /* FeelingsEntry.swift in Sources */,
+				027 /* FeelingsJournalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

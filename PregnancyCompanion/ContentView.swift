@@ -45,11 +45,17 @@ struct MainTabView: View {
                 }
                 .tag(3)
             
+            FeelingsJournalView()
+                .tabItem {
+                    Label("Journal", systemImage: "book.fill")
+                }
+                .tag(4)
+            
             ProfileView()
                 .tabItem {
                     Label("Profile", systemImage: "person.fill")
                 }
-                .tag(4)
+                .tag(5)
         }
         .tint(Color.textPrimary)
     }
@@ -57,5 +63,5 @@ struct MainTabView: View {
 
 #Preview {
     ContentView()
-        .modelContainer(for: [UserProfile.self, TodoTask.self, FoodEntry.self, DoctorVisit.self, MoodEntry.self, WeightEntry.self], inMemory: true)
+        .modelContainer(for: [UserProfile.self, TodoTask.self, FoodEntry.self, DoctorVisit.self, MoodEntry.self, WeightEntry.self, FeelingsEntry.self], inMemory: true)
 }
