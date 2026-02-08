@@ -487,4 +487,3 @@ The app uses a soft, calming pastel palette:
 
 This app was crafted with love for expecting mothers. Feel free to customize the code to fit your needs!
 
-**Made with SwiftUI 💜**
